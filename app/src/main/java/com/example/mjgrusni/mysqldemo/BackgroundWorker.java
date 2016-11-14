@@ -32,7 +32,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... params) {
         String type = params[0];
         //change this URL to your own login if you want
-        String login_url = "http://csis.svsu.edu/~gpcorser/cs403/login.php";
+        String login_url = "http://csis.svsu.edu/~mjgrusni/cs403/login.php";
         if(type.equals("login")){
             try {
                 String user_name = params[1];
